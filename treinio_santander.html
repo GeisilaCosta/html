@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino Curso Santander HTML</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <hr>
+            <br>
+            <h1>Barra de Navegação</h1>
+
+            <a href="barra_de_navegacao.html">
+                <img src="image/png-transparent-logo-html-html5.png" alt="Logo HTML 5" height="40">
+            </a>
+            <ul>
+                <li>
+                    <a href="barra_de_navegacao.html">Home</a>
+                </li>
+                <li>
+                    <a href="portifolio.html">Portifólio</a> <!--este codigo abre uma nova pagina-->
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a><!--este codigo abre uma nova pagina-->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br>
+
+
+    <article>
+        <h1>Utilizando TAGS</h1>
+        <main>
+            <p><span>Lorem</span> ipsum dolor sit amet <b>consectetur</b> adipisicing <strong>elit</strong>. Veniam <i>velit</i>, architecto quos excepturi <em>quibusdam</em> possimus fugit ex qui magnam earum rerum atque, <u>consectetur </u>consequatur esse. <s>Explicabo</s> quia tenetur saepe cumque! <mark>Lorem ipsum</mark> dolor sit amet, consectetur adipisicing elit. Incidunt aliquid, <pre>similique</pre> nihil nobis sequi sint, iusto, neque <code>corporis enim adipisci deleniti!</code> Optio, amet. Officia, temporibus repellendus provident <blockquote> "voluptas perferendis ratione!"</blockquote> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, rem? Facere qui obcaecati nam suscipit animi quisquam minima? Fugiat dolore, magnam fuga in quidem maiores numquam ullam iure nesciunt molestias.
+            <br> 10 <sup>2</sup></p>  H <sub>2</sub> O
+            <br>
+        </main>
+    </article>
+    <hr>
+    <br>
+    <main>
+            <h2>lista de material escolar 2024</h2>
+            <ul>
+                <li>Caderno</li>
+                <li>Lápis</li>
+                <li>Canetinha</li>
+                <li>Lápis de cor</li>
+            </ul>
+            <ol>
+                <li>Mochila</li>
+                <li>Lancheira</li>
+                <li>Garrafa de água</li>
+                <li>Estojo</li>
+            </ol>
+    </main>
+    <hr>
+    <br>
+    <section>
+        <a href="https://github.com/GeisilaCosta" target="_blank">Github GeisilaCosta</a>
+    </section>
+    <br>
+    <hr>
+    <div>
+        <h5>Imagem</h5>
+        <figure>
+            <img src="image/png-transparent-logo-html-html5.png" alt="Foto da logo do Html" width="70">
+        </figure>
+    </div>
+    <!--tabelass-->
+
+
+    <main>
+        <hr>
+        <br>
+
+        <section id="students">
+
+            <h1>Tabela de Alunos</h1>
+
+            <table border="3">
+
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Geisila Costa</td>
+                        <td>geisilascosta@gmail.com</td>
+                        <td>210283</td>
+                    </tr>
+                    <tr>
+                        <td>Alice Costa</td>
+                        <td>lili@gmail.com</td>
+                        <td>561478</td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel Reizinger</td>
+                        <td>Gb@hotmail.com</td>
+                        <td>88546</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section id="finance">
+            <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2022</td>
+                        <td>despesa</td>
+                        <td>Almoço</td>
+                        <td>35,00</td>
+                    </tr>
+                    <tr>
+                        <td>15/06/2022</td>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>3.755,00</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <br>
+        </section>
+        <br>
+    </main>
+
+    <!--Formulários-->
+    <main>
+        <hr>
+
+        <br>
+        <h1>Formulários</h1>
+        <br>
+        <form>
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" placeholder="Informe seu nome..." name="nome">
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de Nascimento</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <label for="hora">Horário</label>
+                <input type="time" id="hora" name="hora"> <!--o for tem que ser igual ao id-->
+            </div>
+
+            <div>
+                <label for="qualquer">Número</label>
+                <input type="number" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="arquivo">Arquivo</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <div>
+                <label for="cor">Cor</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+
+            <div>
+                <label for="range">range</label>
+                <input type="range" id="range" name="range" value="100" min="10" max="150">
+            </div>
+
+            <div>
+                <label for="caixa">Caixinha de Seleção</label>
+                <input type="checkbox" id="caixa" name="caixa" checked>
+            </div>
+
+            <div>
+                <label for="cx">Caixinha de Seleção</label>
+                <input type="radio" id="cx" name="cx"> <!-- quando tem varias dessas, só permite marcar uma-->
+            </div>
+            <br>
+
+            <textarea name="" id="" cols="30" rows="10"> Descrição</textarea>
+            <br>
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value=" " disabled selected>Selecione uma das opções</option>
+                    <option value="despesas">Despesas</option>
+                    <option value="receitas">Receitas</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="limpar">limpar</label>
+                <input type="reset" id="limpar" name="limpar" value="limpar">
+            </div>
+            <br>
+
+            <div>
+                <label for="enviar">Enviar</label>
+                <input type="submit" id="enviar" name="enviar"> <!--pode tirar o label-->
+
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
